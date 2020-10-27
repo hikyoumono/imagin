@@ -16,6 +16,7 @@
 
     </head>
     <body>
+
 <div class="bg-light" style="height:100%;">
 
 <header>
@@ -29,24 +30,32 @@
 </nav>
 </header>
 
-<div class ="my-5 mx-3">
-<p>著作権freeの画像を投稿できます</p>
-</div>
+<div class="container">
 
-<form method='POST' action='up.php' class="mt-5">
-<input type='file' name='gazo' class="mx-3 my-2"><br>
-<input type='text' name='title' class="mx-3 my-2" placeholder="title (20文字以内)"><br>
-<input type='text' name='detail' class="mx-3 my-2" placeholder="detail (150文字以内)"><br>
-<input type='submit' class="btn btn-primary mt-5 mx-3" value='upload'>
+<form method="POST" action="signupsql.php">
+<div class="form-group">
+  <label for="exampleInputEmail1">Username</label>
+  <input type="text" class="form-control" id="exampleInputUser" name="user" placeholder="User name">
+  
+</div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">New Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password（最低7文字以上）">
+  </div>
+<div class="form-group">
+  <label for="exampleInputEmail1">New address</label>
+  <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Mail address">
+  <small id="emailHelp" class="form-text text-muted">We are going to never share your email with anyone else.</small>
+</div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="check">
+    <label class="form-check-label" for="exampleCheck1">利用規約に同意</label>
+  </div>
+  <button type="submi7t" class="btn btn-primary">アカウントの作成</button>
 </form>
 
-
-<div class="alert alert-warning my-5 mx-3" role="alert" style="font-size:10px">
-※注意　投稿すると一般公開されます。投稿できるものは、自分の作った著作権freeの画像だけです。他人の諸作物やfreeの画像にしたくないもの、誰かに見られたくない画像は絶対にアップロードしないようにしてください。
 </div>
 
 </div>
-    </body>
-
+</body>
 </html>
-

@@ -22,13 +22,13 @@
 <div class="bg-light" style="height:100%;">
 
         <header>
-        <nav class="nav" style="background-color:blue">
+        <nav class="nav" style="background-color:rgba(250,100,200,0.5)">
           <a class="title_name mx-5" style="text-align:center; margin-top:8px; left:25%">タイトルを決めようね</a>
           <a class="nav-link active" href="#">Trendy</a>
           <a class="nav-link" href="#">Ranking</a>
           <a class="nav-link" href="./index.php">Home</a>
-          <a class="nav-link" href="./upload.php">Upload</a>
           <a class="nav-link" href="./lisence.html">利用規約</a>
+          <a class="btn btn-outline-info mt-1" href="./login.php" role="button" style="height:30px; line-height:15px; margin-left:300px">ログイン [login]</a>
         </nav>
         </header>
 
@@ -49,7 +49,7 @@
 
 <form method="post" action="detail.php">
 <input type="hidden" name="gazouid" value="画像idを　決めようね">
-<input type="image" src="./moon.jpg" alt="送信する" width="19%">
+<input type="image" class="img-thumbnail" src="./moon.jpg" alt="送信する" width="19%">
 </form>
 
         </div>
