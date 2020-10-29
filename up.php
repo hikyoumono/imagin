@@ -9,15 +9,20 @@
         return $sql;
     }
     
-    require_once 'DBConector.php';
-    $pdo = getConector();
+    require_once "DBConector.php";
+    $db = new DBConector();
+    $pdo = $db::getConector();
     
     $link = "./upload.php";
     
     if(isset($_POST['gazo'])){
+        if($_POST['gazo'] != null){
         $image = pathinfo($_POST['gazo'], PATHINFO_EXTENSION);
         if($image == "jpg"){
             
+        }else{
+            header("Location:$link");
+        }
         }else{
             header("Location:$link");
         }

@@ -28,11 +28,11 @@
           <a class="nav-link" href="#">Ranking</a>
           <a class="nav-link" href="./index.php">Home</a>
           <a class="nav-link" href="./lisence.html">利用規約</a>
-          <a class="btn btn-outline-info mt-1" href="./login.php" role="button" style="height:30px; line-height:15px; margin-left:300px">ログイン [login]</a>
+          <a class="btn btn-outline-info mt-1 mx-5" href="./login.php" role="button" style="height:30px; line-height:15px;">ログイン [login]</a>
         </nav>
         </header>
 
-<div class="container">
+<div class="container" style="width:90%; margin:0 auto;">
 
 
 
@@ -43,14 +43,28 @@
               </form>
             </nav>
 
-<div style="margin:5px 25% 5px 28%;">
+
+<div class="maintitle" style="width:60%; margin-left:25%;">
 <h1>タイトルを決めようね</h1>
 </div>
 
+<div class="syoukaibun mt-5">
+<p>free画像の置き場へようこそ！ ここではたくさんのfreeの画像が置かれています。 お気に入りのイラストや写真を探すことができます。 また、このサイトにログインする事で、自分が作成したイラスト等をアップロードすることができます。 画像の人気ランキングも見ることができることや、楽しみ方が盛り沢山。 まずは、Searchを気軽にクリック！</p>
+</div>
+
+
+<ul class="nav nav-tabs mt-5 mb-4">
+<li class="nav-item">
+  <a class="nav-link active">現在活躍中の画像</a>
+</li>
+</ul>
+
+<div class="sample">
 <form method="post" action="detail.php">
 <input type="hidden" name="gazouid" value="画像idを　決めようね">
 <input type="image" class="img-thumbnail" src="./moon.jpg" alt="送信する" width="19%">
 </form>
+</div>
 
         </div>
 </div>

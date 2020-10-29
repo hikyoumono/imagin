@@ -13,7 +13,7 @@
         }
         
         
-        function getInsert($user,$password,$gmail){
+       function getInsert($user,$password,$gmail){
             
         }
     }
