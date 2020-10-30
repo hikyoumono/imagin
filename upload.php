@@ -35,8 +35,12 @@
 
 <form method='POST' action='up.php' class="mt-5">
 <input type='file' name='gazo' class="mx-3 my-2"><br>
-<input type='text' name='title' class="mx-3 my-2" placeholder="title (20文字以内)"><br>
-<input type='text' name='detail' class="mx-3 my-2" placeholder="detail (150文字以内)"><br>
+<label class="mx-3 mt-3">title</label><br>
+<input type='text' name='title' class="mx-3" placeholder="title (20文字以内)"><br>
+<div class="form-group mx-3 mt-4">
+  <label for="exampleFormControlTextarea1">detail</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="イラスト等の説明を入力" rows="2" style="width:30%;"></textarea>
+</div>
 <input type='submit' class="btn btn-primary mt-5 mx-3" value='upload'>
 </form>
 

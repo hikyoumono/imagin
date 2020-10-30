@@ -32,8 +32,8 @@
         </nav>
         </header>
 
-<div class="container" style="width:90%; margin:0 auto;">
-
+<div class="container" style=" margin:0 auto;">
+<div class="mainbox" style="width:75%;float:left;">
 
 
             <nav class="navbar navbar-light my-4" style="margin-left:30%">
@@ -48,7 +48,7 @@
 <h1>タイトルを決めようね</h1>
 </div>
 
-<div class="syoukaibun mt-5">
+<div class="syoukaibun mt-5 mx-3">
 <p>free画像の置き場へようこそ！ ここではたくさんのfreeの画像が置かれています。 お気に入りのイラストや写真を探すことができます。 また、このサイトにログインする事で、自分が作成したイラスト等をアップロードすることができます。 画像の人気ランキングも見ることができることや、楽しみ方が盛り沢山。 まずは、Searchを気軽にクリック！</p>
 </div>
 
@@ -66,6 +66,15 @@
 </form>
 </div>
 
+ </div>
+
+<div class="advertising" style="width:25%;height:70%;float:left;margin-top:150px;border-left-style:ridge;">
+<div class="m-3" style="width:200px;height:500px;background-color:yellow;">
+広告を入れようね
+</div>
+</div>
+
+</div>
         </div>
 </div>
     </body>

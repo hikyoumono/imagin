@@ -73,11 +73,12 @@ function alertfunction(){
 
 
 
-<div class="uploadgazo" style=" margin-left:5%;">
+<div class="uploadgazo" style="position:relative; left:5%;">
 
-<div style="float:left;">
-<img src="./moon.jpg" alt="..." class="img-thumbnail m-3" style="width:30rem;"><br>
 
+
+<div class="mt-3" style="float:left;">
+<img src="./moon.jpg" alt="..." class="img-thumbnail" style="width:30rem;"><br>
 
 </div>
 
@@ -87,7 +88,7 @@ function alertfunction(){
 
 
 
-<div class="rireki mt-3 mb-5 card" style="width: 20rem;height:600px;float:left;overflow:scroll;">
+<div class="rireki mt-3 mb-5 ml-3 card" style="width: 20rem;height:600px;float:left;overflow:scroll;">
 
 
 <div class="card my-2 mx-2">
@@ -96,7 +97,7 @@ function alertfunction(){
 <div class="card-body">
   <h5 class="card-title">Card title</h5>
   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <a href="./upload.php" class="btn btn-primary">編集</a>
+  <a href="./uploadhensyu.php" class="btn btn-primary">編集</a>
   <button onclick='alertfunction()' class="btn ml-1">削除</a>
 </div>
 </div>
@@ -107,7 +108,7 @@ function alertfunction(){
 <div class="card-body">
   <h5 class="card-title">Card title</h5>
   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-<a href="./upload.php" class="btn btn-primary">編集</a>
+<a href="./uploadhensyu.php" class="btn btn-primary">編集</a>
 <button onclick='alertfunction()' class="btn ml-1">削除</a>
 </div>
 </div>
@@ -123,7 +124,7 @@ function alertfunction(){
 
 <div class="app" style="float:clear;">
 <br>
-<button type="button" class="btn btn-success btn-lg btn-block" href="upload.php" style="margin-bottom:10%;">新しくアップロード</button>
+<button type="button" class="btn btn-success btn-lg btn-block" onclick=location.href="upload.php" style="margin-bottom:10%;">新しくアップロード</button>
 </div>
 
 
